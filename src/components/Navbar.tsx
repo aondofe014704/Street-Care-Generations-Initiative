@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import { Menu, X, ChevronDown, Heart } from 'lucide-react'
+import logoImg from '../assets/logo.jpeg'
 import './Navbar.css'
 
 const ourWorkLinks = [
@@ -55,13 +56,7 @@ export default function Navbar() {
       <div className="container navbar__inner">
         {/* Logo */}
         <Link to="/" className="navbar__logo">
-          <div className="navbar__logo-icon">
-            <Heart size={20} fill="currentColor" />
-          </div>
-          <div className="navbar__logo-text">
-            <span className="navbar__logo-name">StreetCare</span>
-            <span className="navbar__logo-sub">Generations Initiative</span>
-          </div>
+          <img src={logoImg} alt="StreetCare Generations Initiative" className="navbar__logo-img" />
         </Link>
 
         {/* Desktop nav */}

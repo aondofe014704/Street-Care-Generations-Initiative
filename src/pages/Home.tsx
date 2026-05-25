@@ -52,10 +52,10 @@ const thematicAreas = [
 /* ── Core values ── */
 const coreValues = [
   { icon: Heart,   label: 'Compassion',    desc: 'Empathy and kindness in every interaction' },
-  { icon: Shield,  label: 'Integrity',     desc: 'Honesty and transparency in all we do' },
-  { icon: Users,   label: 'Teamwork',      desc: 'Stronger together through collaboration' },
   { icon: Award,   label: 'Accountability',desc: 'Responsible stewardship of resources' },
   { icon: Leaf,    label: 'Resilience',    desc: 'Building strength to overcome adversity' },
+  { icon: Users,   label: 'Teamwork',      desc: 'Stronger together through collaboration' },
+  { icon: Shield,  label: 'Integrity',     desc: 'Honesty and transparency in all we do' },
   { icon: MapPin,  label: 'Advocacy',      desc: 'Champions for the rights of street communities' },
   { icon: BookOpen,label: 'Inclusion',     desc: 'Equal value and respect for every individual' },
 ]
